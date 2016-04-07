@@ -1,1 +1,67 @@
 /* Inserta tu CSS aqui */
+/* Use margin en body para centrarlo en la página*/
+body{
+	margin-top: 70px;
+	margin-left: 120px;
+}
+/* Use h1 para el título y colocarlo en la esquina superior derecha*/
+h1{
+	text-align: right;
+	margin-right: 175px; 
+}
+/*Aqui indique el borde y fondo que se debe aplicar para todos los divs en general*/
+div{
+	border: 1px solid white;
+	background-color: green;
+}
+img{
+	position: relative;
+}
+.contenedor{
+	width: 1000px;
+	height: 500px;
+}
+.linea{
+	width: 980px;
+	height: 480px;
+	position: relative;
+	left:8px; 
+	top:8px;
+	bottom:5px;
+	right: 5px;
+}
+.linea>div{
+		position: absolute;
+}
+.arco{
+	width: 120px;
+	height: 220px;
+	top: 120px;                            
+}
+.izquierdo{
+	right: 859px;
+	border-left: 0px;
+}
+/*A - B - C - Son las pelotas en el campo*/
+.A{
+	left: 105px;
+}
+.circulo{
+	width: 210px;
+	height: 210px;
+	border-radius: 100%;
+	top: 120px;
+	left: 380px;
+}
+.B{
+	bottom: 75px;
+	left: 98px;
+}
+.derecho{
+	left: 859px;
+	border-right: 0px;
+}
+.C{
+	top: 198px;
+	right: 29px;
+}
